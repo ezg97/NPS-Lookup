@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    border: 0;
+  }
+
+  html, body{
+    height: 100%;
+  }
+  
+  nav{
+  
+    background-color: lightgreen;
+    border-bottom: 1px solid black;
+
+    text-align: center;
+
+    padding: 10px;
+  }
+
+  nav h1{
+      font-size: 30px;
+  }
+
+  main{
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+
+    height: 100%;
+    width: 100%;
+
+    padding: 10px;
+  }
+
+  .grey-style{
+    background-color: grey;
+    height: 100%;
+
+  }
+
+  .js-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .js-form label{
+    text-align: center;
+    font-size: 24px;
+  }
+
+  input[type="text"], input[type="number"]{
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    width: 60%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  input[type="number"]{
+    margin-top: 0;
+  }
+  
+  input[type="submit"] {
+    padding: 5px;
+    background: lightgreen;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  h2{
+    border-bottom: 1px solid white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+
+  }
+
+  .results{
+    margin-bottom: 50px;
+  }
+
+  .results-list li h3 a{
+    color: lightgreen;
+  }
+
+
+  .results-list li p{
+    padding-left: 5px;
+    margin-bottom: 20px;
+  }
+  .js-error-message {
+    background-color: red;
+    width: 100%;
+
+    text-align: center;
+   
+    color: black;
+    font-size: 26px;
+  }
+  
+  .hidden {
+    display: none;
+  }
